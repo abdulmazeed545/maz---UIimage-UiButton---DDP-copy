@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0443E87D257A572100DB2007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E87C257A572100DB2007 /* AppDelegate.swift */; };
+		0443E87F257A572100DB2007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E87E257A572100DB2007 /* SceneDelegate.swift */; };
+		0443E881257A572100DB2007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E880257A572100DB2007 /* ViewController.swift */; };
+		0443E884257A572100DB2007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0443E882257A572100DB2007 /* Main.storyboard */; };
+		0443E886257A572300DB2007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0443E885257A572300DB2007 /* Assets.xcassets */; };
+		0443E889257A572300DB2007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0443E887257A572300DB2007 /* LaunchScreen.storyboard */; };
+		0443E894257A572300DB2007 /* maz___UIimage_UiButton___DDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E893257A572300DB2007 /* maz___UIimage_UiButton___DDPTests.swift */; };
+		0443E89F257A572300DB2007 /* maz___UIimage_UiButton___DDPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E89E257A572300DB2007 /* maz___UIimage_UiButton___DDPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0443E890257A572300DB2007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0443E871257A572100DB2007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0443E878257A572100DB2007;
+			remoteInfo = "maz - UIimage&UiButton - DDP";
+		};
+		0443E89B257A572300DB2007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0443E871257A572100DB2007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0443E878257A572100DB2007;
+			remoteInfo = "maz - UIimage&UiButton - DDP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0443E879257A572100DB2007 /* maz - UIimage&UiButton - DDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maz - UIimage&UiButton - DDP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0443E87C257A572100DB2007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0443E87E257A572100DB2007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0443E880257A572100DB2007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0443E883257A572100DB2007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0443E885257A572300DB2007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0443E888257A572300DB2007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0443E88A257A572300DB2007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0443E88F257A572300DB2007 /* maz - UIimage&UiButton - DDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maz - UIimage&UiButton - DDPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0443E893257A572300DB2007 /* maz___UIimage_UiButton___DDPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "maz___UIimage_UiButton___DDPTests.swift"; sourceTree = "<group>"; };
+		0443E895257A572300DB2007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0443E89A257A572300DB2007 /* maz - UIimage&UiButton - DDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maz - UIimage&UiButton - DDPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0443E89E257A572300DB2007 /* maz___UIimage_UiButton___DDPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "maz___UIimage_UiButton___DDPUITests.swift"; sourceTree = "<group>"; };
+		0443E8A0257A572300DB2007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0443E876257A572100DB2007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0443E88C257A572300DB2007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0443E897257A572300DB2007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0443E870257A572100DB2007 = {
+			isa = PBXGroup;
+			children = (
+				0443E87B257A572100DB2007 /* maz - UIimage&UiButton - DDP */,
+				0443E892257A572300DB2007 /* maz - UIimage&UiButton - DDPTests */,
+				0443E89D257A572300DB2007 /* maz - UIimage&UiButton - DDPUITests */,
+				0443E87A257A572100DB2007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0443E87A257A572100DB2007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0443E879257A572100DB2007 /* maz - UIimage&UiButton - DDP.app */,
+				0443E88F257A572300DB2007 /* maz - UIimage&UiButton - DDPTests.xctest */,
+				0443E89A257A572300DB2007 /* maz - UIimage&UiButton - DDPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0443E87B257A572100DB2007 /* maz - UIimage&UiButton - DDP */ = {
+			isa = PBXGroup;
+			children = (
+				0443E87C257A572100DB2007 /* AppDelegate.swift */,
+				0443E87E257A572100DB2007 /* SceneDelegate.swift */,
+				0443E880257A572100DB2007 /* ViewController.swift */,
+				0443E882257A572100DB2007 /* Main.storyboard */,
+				0443E885257A572300DB2007 /* Assets.xcassets */,
+				0443E887257A572300DB2007 /* LaunchScreen.storyboard */,
+				0443E88A257A572300DB2007 /* Info.plist */,
+			);
+			path = "maz - UIimage&UiButton - DDP";
+			sourceTree = "<group>";
+		};
+		0443E892257A572300DB2007 /* maz - UIimage&UiButton - DDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				0443E893257A572300DB2007 /* maz___UIimage_UiButton___DDPTests.swift */,
+				0443E895257A572300DB2007 /* Info.plist */,
+			);
+			path = "maz - UIimage&UiButton - DDPTests";
+			sourceTree = "<group>";
+		};
+		0443E89D257A572300DB2007 /* maz - UIimage&UiButton - DDPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0443E89E257A572300DB2007 /* maz___UIimage_UiButton___DDPUITests.swift */,
+				0443E8A0257A572300DB2007 /* Info.plist */,
+			);
+			path = "maz - UIimage&UiButton - DDPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0443E878257A572100DB2007 /* maz - UIimage&UiButton - DDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0443E8A3257A572300DB2007 /* Build configuration list for PBXNativeTarget "maz - UIimage&UiButton - DDP" */;
+			buildPhases = (
+				0443E875257A572100DB2007 /* Sources */,
+				0443E876257A572100DB2007 /* Frameworks */,
+				0443E877257A572100DB2007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "maz - UIimage&UiButton - DDP";
+			productName = "maz - UIimage&UiButton - DDP";
+			productReference = 0443E879257A572100DB2007 /* maz - UIimage&UiButton - DDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0443E88E257A572300DB2007 /* maz - UIimage&UiButton - DDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0443E8A6257A572300DB2007 /* Build configuration list for PBXNativeTarget "maz - UIimage&UiButton - DDPTests" */;
+			buildPhases = (
+				0443E88B257A572300DB2007 /* Sources */,
+				0443E88C257A572300DB2007 /* Frameworks */,
+				0443E88D257A572300DB2007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0443E891257A572300DB2007 /* PBXTargetDependency */,
+			);
+			name = "maz - UIimage&UiButton - DDPTests";
+			productName = "maz - UIimage&UiButton - DDPTests";
+			productReference = 0443E88F257A572300DB2007 /* maz - UIimage&UiButton - DDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0443E899257A572300DB2007 /* maz - UIimage&UiButton - DDPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0443E8A9257A572300DB2007 /* Build configuration list for PBXNativeTarget "maz - UIimage&UiButton - DDPUITests" */;
+			buildPhases = (
+				0443E896257A572300DB2007 /* Sources */,
+				0443E897257A572300DB2007 /* Frameworks */,
+				0443E898257A572300DB2007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0443E89C257A572300DB2007 /* PBXTargetDependency */,
+			);
+			name = "maz - UIimage&UiButton - DDPUITests";
+			productName = "maz - UIimage&UiButton - DDPUITests";
+			productReference = 0443E89A257A572300DB2007 /* maz - UIimage&UiButton - DDPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0443E871257A572100DB2007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Shaik abdul mazeed";
+				TargetAttributes = {
+					0443E878257A572100DB2007 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					0443E88E257A572300DB2007 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 0443E878257A572100DB2007;
+					};
+					0443E899257A572300DB2007 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 0443E878257A572100DB2007;
+					};
+				};
+			};
+			buildConfigurationList = 0443E874257A572100DB2007 /* Build configuration list for PBXProject "maz - UIimage&UiButton - DDP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0443E870257A572100DB2007;
+			productRefGroup = 0443E87A257A572100DB2007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0443E878257A572100DB2007 /* maz - UIimage&UiButton - DDP */,
+				0443E88E257A572300DB2007 /* maz - UIimage&UiButton - DDPTests */,
+				0443E899257A572300DB2007 /* maz - UIimage&UiButton - DDPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0443E877257A572100DB2007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0443E889257A572300DB2007 /* LaunchScreen.storyboard in Resources */,
+				0443E886257A572300DB2007 /* Assets.xcassets in Resources */,
+				0443E884257A572100DB2007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0443E88D257A572300DB2007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0443E898257A572300DB2007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0443E875257A572100DB2007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0443E881257A572100DB2007 /* ViewController.swift in Sources */,
+				0443E87D257A572100DB2007 /* AppDelegate.swift in Sources */,
+				0443E87F257A572100DB2007 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0443E88B257A572300DB2007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0443E894257A572300DB2007 /* maz___UIimage_UiButton___DDPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0443E896257A572300DB2007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0443E89F257A572300DB2007 /* maz___UIimage_UiButton___DDPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0443E891257A572300DB2007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0443E878257A572100DB2007 /* maz - UIimage&UiButton - DDP */;
+			targetProxy = 0443E890257A572300DB2007 /* PBXContainerItemProxy */;
+		};
+		0443E89C257A572300DB2007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0443E878257A572100DB2007 /* maz - UIimage&UiButton - DDP */;
+			targetProxy = 0443E89B257A572300DB2007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0443E882257A572100DB2007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0443E883257A572100DB2007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0443E887257A572300DB2007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0443E888257A572300DB2007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0443E8A1257A572300DB2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0443E8A2257A572300DB2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0443E8A4257A572300DB2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = QJ38K4FTCM;
+				INFOPLIST_FILE = "maz - UIimage&UiButton - DDP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.2010.mazeedabdul6.60;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0443E8A5257A572300DB2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = QJ38K4FTCM;
+				INFOPLIST_FILE = "maz - UIimage&UiButton - DDP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.2010.mazeedabdul6.60;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0443E8A7257A572300DB2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "maz - UIimage&UiButton - DDPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mazeed.shaik.maz---UIimage-UiButton---DDPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maz - UIimage&UiButton - DDP.app/maz - UIimage&UiButton - DDP";
+			};
+			name = Debug;
+		};
+		0443E8A8257A572300DB2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "maz - UIimage&UiButton - DDPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mazeed.shaik.maz---UIimage-UiButton---DDPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maz - UIimage&UiButton - DDP.app/maz - UIimage&UiButton - DDP";
+			};
+			name = Release;
+		};
+		0443E8AA257A572300DB2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "maz - UIimage&UiButton - DDPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mazeed.shaik.maz---UIimage-UiButton---DDPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "maz - UIimage&UiButton - DDP";
+			};
+			name = Debug;
+		};
+		0443E8AB257A572300DB2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "maz - UIimage&UiButton - DDPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mazeed.shaik.maz---UIimage-UiButton---DDPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "maz - UIimage&UiButton - DDP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0443E874257A572100DB2007 /* Build configuration list for PBXProject "maz - UIimage&UiButton - DDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0443E8A1257A572300DB2007 /* Debug */,
+				0443E8A2257A572300DB2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0443E8A3257A572300DB2007 /* Build configuration list for PBXNativeTarget "maz - UIimage&UiButton - DDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0443E8A4257A572300DB2007 /* Debug */,
+				0443E8A5257A572300DB2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0443E8A6257A572300DB2007 /* Build configuration list for PBXNativeTarget "maz - UIimage&UiButton - DDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0443E8A7257A572300DB2007 /* Debug */,
+				0443E8A8257A572300DB2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0443E8A9257A572300DB2007 /* Build configuration list for PBXNativeTarget "maz - UIimage&UiButton - DDPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0443E8AA257A572300DB2007 /* Debug */,
+				0443E8AB257A572300DB2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0443E871257A572100DB2007 /* Project object */;
+}
